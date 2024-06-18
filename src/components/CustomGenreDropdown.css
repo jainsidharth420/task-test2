@@ -1,0 +1,71 @@
+/* CustomGenreDropdown.css */
+
+
+  
+  .button-2 {
+    position: absolute;
+    padding: 8px;
+    left: 601px;
+    font-size: 14px;
+    height: 55px; 
+    width: 113px; /* Width of the ratings tab */
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  
+  }
+  .genre-label {
+    font-size: 14px; /* Adjust font size as needed */
+    font-weight: normal; /* Adjust font weight if necessary */
+    font-family: Arial, sans-serif; /* Specify the desired font family */
+    /* Any other styles you want to apply */
+  }
+  
+  .button-2 .arrow-icon {
+    margin-left: 5px; /* Adjust spacing between text and icon */
+    width: 24px; /* Adjust icon width */
+    height: 14px; /* Adjust icon height */
+  }
+  
+  .button .arrow-up,
+  .button .arrow-down {
+    margin-left: 5px;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 80px; /* Position the dropdown menu below the button */
+    left: 601px;
+    width: 112px; /* Width of the dropdown menu */
+    max-height: 151px; /* Limit maximum height to match dropdown */
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    z-index: 1;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .genre-option input {
+    margin-right: 8px;
+  }
+  
+  .genre-option:hover {
+    background: #f0f0f0;
+  }
+  
+  .genre-option label {
+    font-size: 12px;
+    font-weight: bold; /* Add this line to make the labels bold */
+
+  }
+  

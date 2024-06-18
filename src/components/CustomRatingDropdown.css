@@ -1,0 +1,57 @@
+/* CustomRatingDropdown.css */
+
+  .button-1 {
+    position: absolute;
+    padding: 8px;
+    left: 475px;
+    font-size: 12px;
+    width: 113px; /* Width of the genre tab */
+    height: 55px; /* Height of the genre tab */
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  
+  .button .arrow-icon-1 {
+    margin-left: auto; /* Push the arrow icon to the right */
+    width: 24px; /* Adjust icon width */
+    height: 18px; /* Adjust icon height */
+  }
+  
+  .menu-2 {
+    position: absolute;
+    left: 475px; /* Adjust the position as needed */
+    top: 80px; /* Adjust the position as needed */
+    width: 239px; /* Width of the dropdown menu */
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .option2 {
+
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+    Width: 239px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+  }
+  
+  .rating-option input {
+    margin-right: 8px;
+  }
+  
+  .rating-option:hover {
+    background: #f0f0f0;
+  }
+  
+  .rating-option label {
+    font-size: 12px;
+  }
+  

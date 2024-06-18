@@ -1,0 +1,11 @@
+.star-rating {
+    display: flex;
+    
+}
+  .star-rating .fa-star,
+  .star-rating .fa-star-half-alt,
+  .star-rating .far.fa-star {
+    font-size: 16px;
+    color: #000000;
+  }
+  

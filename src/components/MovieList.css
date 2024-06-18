@@ -1,0 +1,87 @@
+.movie-list-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 0px;
+}
+
+.search-container {
+  position: absolute;
+  left: 21px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: row; /* Ensure items are in a row */
+  gap: 10px; /* Adjust gap between items */
+}
+
+.search-input {
+  width: 441px; /* Width of the search input */
+  height: 48px; /* Height of the search input */
+  top: 22px; /* Position from the top */
+  /* padding-left: 5px; Padding for the input */
+}
+
+.search-input input {
+  font-size: 17px; /* Font size of the input text */
+  font-weight: bold; /* Bold font weight */
+}
+
+.dropdown-container select {
+  padding: 8px;
+  width: 113px;
+  font-size: 14px;
+  background: white;
+}
+
+.suggestions-container {
+  width: 446px; 
+  top: 74px; 
+  left: 21px;
+  gap: 0px;
+  border: 1px solid #ccc; /* Border style */
+  opacity: 0px;
+}
+
+.suggestion-item {
+  padding: 10px;
+}
+
+.suggestion-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title-genre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px; /* Reduced font size */
+}
+
+.genre {
+  margin-left: 10px;
+  color: #666;
+  font-style: italic;
+  font-size: 12px; /* Reduced font size */
+}
+
+.rating {
+  display: flex;
+  font-size: 12px; /* Reduced font size */
+}
